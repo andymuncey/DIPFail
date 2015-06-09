@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BBA6F8C21B26E43E006642BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6F8C11B26E43E006642BC /* main.swift */; };
+		BBA6F8C91B26E454006642BC /* MorticeLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6F8C81B26E454006642BC /* MorticeLock.swift */; };
+		BBA6F8CB1B26E4F2006642BC /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6F8CA1B26E4F2006642BC /* Door.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		BBA6F8BE1B26E43E006642BC /* DIPFail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DIPFail; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA6F8C11B26E43E006642BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBA6F8C81B26E454006642BC /* MorticeLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorticeLock.swift; sourceTree = "<group>"; };
+		BBA6F8CA1B26E4F2006642BC /* Door.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		BBA6F8B51B26E43E006642BC = {
 			isa = PBXGroup;
 			children = (
+				BBA6F8C81B26E454006642BC /* MorticeLock.swift */,
+				BBA6F8CA1B26E4F2006642BC /* Door.swift */,
 				BBA6F8C01B26E43E006642BC /* DIPFail */,
 				BBA6F8BF1B26E43E006642BC /* Products */,
 			);
@@ -118,6 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA6F8C91B26E454006642BC /* MorticeLock.swift in Sources */,
+				BBA6F8CB1B26E4F2006642BC /* Door.swift in Sources */,
 				BBA6F8C21B26E43E006642BC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
