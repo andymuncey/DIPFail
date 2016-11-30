@@ -94,6 +94,8 @@
 		BBA6F8B61B26E43E006642BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "University of Chester";
 				TargetAttributes = {
@@ -241,6 +243,7 @@
 				BBA6F8C71B26E43E006642BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
